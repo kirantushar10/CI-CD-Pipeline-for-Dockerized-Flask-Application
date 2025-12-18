@@ -86,3 +86,15 @@ Key highlights:
 - ▶️ Automatically starts the Flask app when the container runs
 
 Docker enables portable deployment and smooth integration with the CI/CD pipeline.
+
+## 🤖 CI/CD Pipeline
+
+This project uses GitHub Actions to implement a two-stage CI/CD pipeline that ensures code quality and automated Docker image delivery.
+
+flowchart TD
+    A[👨‍💻 Code Push / Pull Request] --> B[🤖 GitHub Actions Triggered]
+    B --> C[🧪 Job 1: Build & Test]
+    C -->|Tests Pass ✅| D[🐳 Job 2: Build & Push Docker Image]
+    C -->|Tests Fail ❌| E[⛔ Pipeline Stops]
+    D --> F[📦 Docker Image Available on Docker Hub]
+
