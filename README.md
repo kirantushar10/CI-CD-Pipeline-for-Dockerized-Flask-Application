@@ -132,4 +132,10 @@ docker pull kirantushar10/flasktest-app:latest
 docker run -p 5000:5000 kirantushar10/flasktest-app:latest
 
 ```
-🌐 Access the app at: http://localhost:5000
+Access the app at: http://localhost:5000
+
+---
+
+## 🎯 Purpose & Future Improvements
+
+*This project showcases a fully automated **CI/CD pipeline** for a Dockerized Flask application using **GitHub Actions, Pytest,** and **Docker Hub**. It demonstrates best practices in testing, containerization, and continuous deployment. Future enhancements include adding Docker Compose, versioned image tags, cloud deployment, and pipeline improvements for production environments.*
