@@ -94,3 +94,10 @@ This project uses GitHub Actions to implement a two-stage CI/CD pipeline that en
 ```bash
 A[👨‍💻 Code Push / Pull Request] --> B[🤖 GitHub Actions Triggered] --> C[🧪 Job 1: Build & Test]
 ```
+### 🐳 Job 2: Build & Push Docker Image (Continuous Deployment)
+```bash
+.
+├── C -->|Tests Pass ✅| D[🐳 Job 2: Build & Push Docker Image]
+├── C -->|Tests Fail ❌| E[⛔ Pipeline Stops]
+└── D --> F[📦 Docker Image Available on Docker Hub]
+```
