@@ -106,9 +106,9 @@ A[👨‍💻 Code Push / Pull Request] --> B[🤖 GitHub Actions Triggered] -->
 ## 🔐 GitHub Secrets Required 🔑
 
 ```bash
-| Secret                  | Description             |
-| ----------------------- | ----------------------- |
-| 🔑 `DOCKERHUB_USERNAME` | Docker Hub username     |
-| 🔐 `DOCKERHUB_TOKEN`    | Docker Hub access token |
+Secret                      Description             
+-----------------------     ----------------------- 
+🔑 `DOCKERHUB_USERNAME`     Docker Hub username     
+🔐 `DOCKERHUB_TOKEN`        Docker Hub access token 
 
 ```
