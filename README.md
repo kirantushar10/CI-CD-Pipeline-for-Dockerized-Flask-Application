@@ -125,3 +125,11 @@ A[👨‍💻 Code Push / Pull Request] --> B[🤖 GitHub Actions Triggered] -->
     </tr>
   </tbody>
 </table>
+
+## ▶️ Run with Docker 🐳
+```bash
+docker pull kirantushar10/flasktest-app:latest
+docker run -p 5000:5000 kirantushar10/flasktest-app:latest
+
+```
+🌐 Access the app at: http://localhost:5000
