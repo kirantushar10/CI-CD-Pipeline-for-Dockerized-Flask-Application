@@ -112,3 +112,21 @@ Secret                      Description
 🔐 `DOCKERHUB_TOKEN`        Docker Hub access token 
 
 ```
+<table style="width:100%; border-collapse: collapse; text-align: center; font-family: Arial, sans-serif;">
+  <thead>
+    <tr style="background-color:#0d1117; color:#ffffff;">
+      <th style="padding:12px; border:1px solid #30363d;">🔑 Secret Name</th>
+      <th style="padding:12px; border:1px solid #30363d;">📝 Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding:10px; border:1px solid #30363d;"><strong>DOCKERHUB_USERNAME</strong></td>
+      <td style="padding:10px; border:1px solid #30363d;">Docker Hub account username</td>
+    </tr>
+    <tr style="background-color:#161b22;">
+      <td style="padding:10px; border:1px solid #30363d;"><strong>DOCKERHUB_TOKEN</strong></td>
+      <td style="padding:10px; border:1px solid #30363d;">Docker Hub access token used for authentication</td>
+    </tr>
+  </tbody>
+</table>
