@@ -23,7 +23,7 @@ https://github.com/kirantushar10/CI-CD-With-Docker-Hub
 ---
 
 ## 🌟 Overview
-This project demonstrates a fully automated CI/CD pipeline for a Dockerized Flask application, built using modern DevOps tools and best practices:
+*This project demonstrates a fully automated CI/CD pipeline for a Dockerized Flask application, built using modern DevOps tools and best practices:*
 
 - 🌶️ **Flask** for building a lightweight web application
 - 🧪 **Pytest** for automated testing and validation
@@ -31,4 +31,4 @@ This project demonstrates a fully automated CI/CD pipeline for a Dockerized Flas
 - 🤖 **GitHub** Actions for continuous integration and continuous deployment
 - 📦 **Docker** Hub for storing and distributing Docker images
 
-The pipeline automatically tests, builds, and deploys the application whenever changes are pushed to the main branch, ensuring reliable, consistent, and production-ready deployments.
+*The pipeline automatically tests, builds, and deploys the application whenever changes are pushed to the main branch, ensuring reliable, consistent, and production-ready deployments.*
