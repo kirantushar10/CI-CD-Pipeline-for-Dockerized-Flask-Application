@@ -1,1 +1,1 @@
-## THIS PROJECT SHOWS HOW TO RUN WITH GITHUB ACTION (CI/CD PIPELINE)
+## 🚀 CI/CD Pipeline for Dockerized Flask Application
